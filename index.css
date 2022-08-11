@@ -138,4 +138,8 @@ form{
     font-size: 25px;
     background-color: #314dc2;
     color: white;
+    border: none;
+}
+#click:hover{
+    background-color: #0423a1;
 }
