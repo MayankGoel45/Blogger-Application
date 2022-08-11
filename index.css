@@ -1,70 +1,141 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /* Nav Bar */
-body{
-    height: 10000px;
-    background-color: white;
-}
-header{
-/* border: 2px solid; */
-position: relative;
-padding: 5px 1px;
-background-color: black;
-position: sticky;
-top: 0;
+header {
+  /* border: 2px solid; */
+  position: relative;
+  padding: 5px 1px;
+  background-color: black;
+  position: sticky;
+  top: 0;
 }
 
-nav{
-/* border: 2px solid; */
-display: flex;
-justify-content: space-between;
-align-items: center;
+nav {
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-nav #logo{
-    /* border: 2px solid; */
-    margin: 1px 150px 1px 30px;
+nav #logo {
+  /* border: 2px solid; */
+  margin: 1px 200px 1px 30px;
 }
-nav #name{
-    /* border: 2px solid; */
-    font-size: 40px;
-    font-weight: 600;
-    color: white;
+nav #name {
+  /* border: 2px solid; */
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
 }
-nav #logo img{
-    height: 60px;
+nav #logo img {
+  height: 60px;
 }
-nav ul{
-    /* border: 2px solid; */
+nav ul {
+  /* border: 2px solid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1px 50px 1px 1px;
+}
+nav ul li {
+  list-style: none;
+  margin: 1px 21px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 1px 20px;
+  padding: 1px 10px;
+  color: white;
+}
+nav ul li a:hover {
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+}
+
+#section {
+  /* border: 2px solid; */
+  padding: 50px 50px;
+}
+#data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#data div {
+  /* border: 2px solid; */
+  margin: 20px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  align-items: center;
+  padding: 0;
+}
+#dv1{
+    margin: 20px;
+    width: 200px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1px 130px 1px 1px;
-}
-nav ul li{
-list-style: none;
-margin: 1px 21px;
-}
-nav ul li a{
-    text-decoration: none;
-    font-size: 25px;
-    font-weight: 600;
-    margin: 1px 20px;
-    padding: 1px 10px;
-    color: white;
-}
-nav ul li a:hover{
-color: black;
-background-color: white;
-border-radius: 20px;
-}
-
-section{
-    border: 2px solid;
+    flex-direction: column;
     background-color: whitesmoke;
-    padding: 10px 50px;
-    margin-top: 50px;
+    align-items: center;
+    padding: 0;
+}
+#data div #d1 {
+  /* border: 2px solid black; */
+  background-color: rgb(128 128 128 / 40%);
+  text-align: center;
+  font-weight: 600;
+  justify-content: center;
+  height: 100px;
+  margin: 0;
+  font-size: 17px;
+}
+#data div #d2 {
+  /* border: 2px solid black; */
+  text-align: center;
+  justify-content: center;
+  margin: 10px 1px 1px 1px;
+}
 
+/* Footer */
+footer{
+    height: 500px;
+    background-color: #fff5e5;
+    border-top: 1px solid black;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+#h1{
+    font-size: 60px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+#title{
+    margin-top: 20px;
+}
+#title input{
+    height: 30px;
+    width: 400px;
+    padding: 10px;
+}
+#body textarea{
+    padding: 10px;
+}
+#click{
+    padding: 4px 20px;
+    padding: 4px 20px;
+    font-size: 25px;
+    background-color: #314dc2;
+    color: white;
 }
