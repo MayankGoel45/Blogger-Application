@@ -76,14 +76,14 @@ nav ul li a:hover {
   align-items: center;
   padding: 0;
 }
-#dv1{
-    margin: 20px;
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    background-color: whitesmoke;
-    align-items: center;
-    padding: 0;
+#dv1 {
+  margin: 20px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  align-items: center;
+  padding: 0;
 }
 #data div #d1 {
   /* border: 2px solid black; */
@@ -91,6 +91,7 @@ nav ul li a:hover {
   text-align: center;
   font-weight: 600;
   justify-content: center;
+  word-break: break-all;
   height: 100px;
   margin: 0;
   font-size: 17px;
@@ -99,71 +100,72 @@ nav ul li a:hover {
   /* border: 2px solid black; */
   text-align: center;
   justify-content: center;
+  word-break: break-all;
   margin: 10px 1px 1px 1px;
 }
 
 /* Footer */
-footer{
-    height: 350px;
-    background-color: #fff5e5;
-    border-top: 1px solid black;
+footer {
+  height: 350px;
+  background-color: #fff5e5;
+  border-top: 1px solid black;
 }
-form{
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
 }
-#h1{
-    font-size: 60px;
-    font-weight: 600;
-    text-decoration: underline;
-}
-#title{
-    margin-top: 20px;
-}
-#title input{
-    height: 30px;
-    width: 400px;
-    padding: 10px;
-}
-#body textarea{
-    padding: 10px;
-    columns: auto;
-    rows: auto;
-}
-#click{
-    padding: 4px 20px;
-    padding: 4px 20px;
-    font-size: 25px;
-    background-color: #314dc2;
-    color: white;
-    border: none;
-}
-#click:hover{
-    background-color: #0423a1;
-}
-@media(max-width:480px){
-  #title input{
-    height: 10px;
-    width: 100px;
-    padding: 10px;
-}
-#h1{
-  font-size: 30px;
+#h1 {
+  font-size: 60px;
   font-weight: 600;
   text-decoration: underline;
 }
-#click{
+#title {
+  margin-top: 20px;
+}
+#title input {
+  height: 30px;
+  width: 400px;
+  padding: 10px;
+}
+#body textarea {
+  padding: 10px;
+  columns: auto;
+  rows: auto;
+}
+#click {
   padding: 4px 20px;
   padding: 4px 20px;
-  font-size: 10px;
+  font-size: 25px;
   background-color: #314dc2;
   color: white;
   border: none;
 }
+#click:hover {
+  background-color: #0423a1;
+}
+@media (max-width: 480px) {
+  #title input {
+    height: 10px;
+    width: 100px;
+    padding: 10px;
+  }
+  #h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  #click {
+    padding: 4px 20px;
+    padding: 4px 20px;
+    font-size: 10px;
+    background-color: #314dc2;
+    color: white;
+    border: none;
+  }
   header {
     /* border: 2px solid; */
     position: relative;
@@ -172,27 +174,27 @@ form{
     position: sticky;
     top: 0;
   }
-  
+
   nav {
-      /* border: 2px solid; */
-      display: flex;
-      flex-direction: column;
-      gap: 15px 1px;
-      /* justify-content: initial; */
-      /* align-items: center;*/
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px 1px;
+    /* justify-content: initial; */
+    /* align-items: center;*/
   }
   nav #name {
-      /* border: 2px solid; */
-      font-size: 30px;
-      font-weight: 500;
-      color: white;
+    /* border: 2px solid; */
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
   }
-  
+
   nav #logo {
     /* border: 2px solid; */
     margin: 1px 1px 1px 1px;
   }
-  
+
   nav #logo img {
     height: 40px;
   }
@@ -222,18 +224,18 @@ form{
   }
 }
 
-@media (min-width:478px) and (max-width:750px){
+@media (min-width: 478px) and (max-width: 750px) {
   /* Nav Bar */
-header {
-  /* border: 2px solid; */
-  position: relative;
-  padding: 5px 1px;
-  background-color: black;
-  position: sticky;
-  top: 0;
-}
+  header {
+    /* border: 2px solid; */
+    position: relative;
+    padding: 5px 1px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+  }
 
-nav {
+  nav {
     /* border: 2px solid; */
     display: flex;
     flex-direction: column;
@@ -246,107 +248,106 @@ nav #name {
     font-size: 30px;
     font-weight: 500;
     color: white;
-}
+  }
 
-nav #logo {
-  /* border: 2px solid; */
-  margin: 1px 1px 1px 1px;
-}
+  nav #logo {
+    /* border: 2px solid; */
+    margin: 1px 1px 1px 1px;
+  }
 
-nav #logo img {
-  height: 50px;
+  nav #logo img {
+    height: 50px;
+  }
+  nav ul {
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px 1px 1px 1px;
+  }
+  nav ul li {
+    list-style: none;
+    margin: 1px 20px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 1px 1px;
+    padding: 1px 10px;
+    color: white;
+  }
+  nav ul li a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+  }
 }
-nav ul {
-  /* border: 2px solid; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 1px 1px 1px 1px;
-}
-nav ul li {
-  list-style: none;
-  margin: 1px 20px;
-}
-nav ul li a {
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: 500;
-  margin: 1px 1px;
-  padding: 1px 10px;
-  color: white;
-}
-nav ul li a:hover {
-  color: black;
-  background-color: white;
-  border-radius: 20px;
-}
+@media (min-width: 750px) and (max-width: 981px) {
+  /* Nav Bar */
+  header {
+    /* border: 2px solid; */
+    position: relative;
+    padding: 5px 1px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+  }
 
-}
-@media (min-width:750px) and (max-width:981px){
-/* Nav Bar */
-header {
-  /* border: 2px solid; */
-  position: relative;
-  padding: 5px 1px;
-  background-color: black;
-  position: sticky;
-  top: 0;
-}
+  nav {
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav #name {
+    /* border: 2px solid; */
+    font-size: 35px;
+    font-weight: 500;
+    color: white;
+  }
 
-nav {
-  /* border: 2px solid; */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-nav #name {
-  /* border: 2px solid; */
-  font-size: 35px;
-  font-weight: 500;
-  color: white;
-}
-
-nav #logo {
-  /* border: 2px solid; */
-  margin: 1px 1px 1px 30px;
-}
-
-nav #logo img {
-  height: 60px;
-}
-nav ul {
-  /* border: 2px solid; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 1px 50px 1px 1px;
-}
-nav ul li {
-  list-style: none;
-  margin: 1px 21px;
-}
-nav ul li a {
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: 500;
-  margin: 1px 10px;
-  padding: 1px 10px;
-  color: white;
-}
-nav ul li a:hover {
-  color: black;
-  background-color: white;
-  border-radius: 20px;
-}
-}
-@media (min-width:981px) and (max-width:1200px){
   nav #logo {
     /* border: 2px solid; */
     margin: 1px 1px 1px 30px;
+  }
+
+  nav #logo img {
+    height: 60px;
+  }
+  nav ul {
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px 50px 1px 1px;
+  }
+  nav ul li {
+    list-style: none;
+    margin: 1px 21px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 1px 10px;
+    padding: 1px 10px;
+    color: white;
+  }
+  nav ul li a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+  }
 }
-#body textarea{
-  padding: 10px;
-  columns: 30;
-  rows: 10;
-}
+@media (min-width: 981px) and (max-width: 1200px) {
+  nav #logo {
+    /* border: 2px solid; */
+    margin: 1px 1px 1px 30px;
+  }
+  #body textarea {
+    padding: 10px;
+    columns: 30;
+    rows: 10;
+  }
 }
