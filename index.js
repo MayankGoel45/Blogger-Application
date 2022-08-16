@@ -38,7 +38,7 @@ btn.addEventListener("click", function (event) {
   let body = document.getElementById("body1");
   let div = document.getElementById("data");
 
-let html = `
+  let html = `
 <div>
 <div id="d1">
 ${title.value}
